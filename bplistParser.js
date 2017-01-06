@@ -41,7 +41,7 @@ var parseFile = exports.parseFile = function (fileNameOrBuffer, callback) {
   }
 };
 
-var parseFileSync = exports.parseFileSync = function (fileNameOrBuffer, callback) {
+var parseFileSync = exports.parseFileSync = function (fileNameOrBuffer) {
   var data;
 
   if (Buffer.isBuffer(fileNameOrBuffer)) {
